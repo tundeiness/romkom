@@ -1,0 +1,14 @@
+name: 'Rom Kom'
+description: "greet someonne and record the time"
+inputs:
+  name:
+    description: 'Name'
+    required: true
+    default: 'romkom'
+outputs:
+  greetings:
+    description: "who are we greeting"
+runs:
+  using: 'node20'
+  main: 'index.js'
+    
